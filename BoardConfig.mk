@@ -114,8 +114,7 @@ BOARD_ROOT_EXTRA_FOLDERS += metadata tranfs
 # Partitions size
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
 
-# Dynamic Partitions
-
+#Dynamic Partitions
 BOARD_SUPER_PARTITION_GROUPS := main
 BOARD_MAIN_PARTITION_LIST := system vendor product system_ext
 BOARD_MAIN_SIZE := 9122611200
