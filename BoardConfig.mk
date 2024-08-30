@@ -21,6 +21,12 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 DEVICE_PATH := device/Tecno/KJ5
 
+# Props
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
+# Fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
