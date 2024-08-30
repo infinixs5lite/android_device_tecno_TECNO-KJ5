@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from KJ5n device
-$(call inherit-product, device/Tecno/KJ5/device.mk)
+$(call inherit-product, device/tecno/KJ5/device.mk)
 
 # Inherit some common TWRP stuff
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -37,9 +37,9 @@ PRODUCT_DEVICE := KJ5
 PRODUCT_NAME := twrp_KJ5
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KJ5
-PRODUCT_MANUFACTURER := TECNO
+PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-PRIVATE_BUILD_DESC="vnd_kj5_h6931-user 12 SP1A.210812.016 510947 release-keys"
+PRIVATE_BUILD_DESC="vnd_kj5_h6931-user 12 SP1A.210812.016 581605 release-keys"
 
-BUILD_FINGERPRINT := TECNO/KJ5-OP/TECNO-KJ5n:12/SP1A.210812.016/231225V534:user/release-keys
+BUILD_FINGERPRINT := TECNO/KJ5-OP/TECNO-KJ5:12/SP1A.210812.016/240411V1162:user/release-keys
